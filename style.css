@@ -1,0 +1,23 @@
+<style>
+                #main{border-radius:30px;
+                    background-color:lightgreen;
+                    width:100px;
+                    height:100px;
+                     text-align:center;
+                      animation-name: example;
+  animation-duration:7s;
+  position:relative;
+   animation-delay: 4s;
+    animation-iteration-count: 5;
+     }
+               @keyframes example {
+  0%   {top:0px; left:0px;}
+  25%  {right: 200px;left:20px;}
+  50%  {left:200px;top: 200px;}
+  100% {left:300px;}
+}
+  
+
+                
+                   
+            </style>
